@@ -16,11 +16,12 @@ function Word (newLetters) {
     // A function that returns a string representing the word. This displays 
     // the character or an underscore and concatenate those together.
     this.toString = function() {
-        this.display=""
+        this.display= ""
         for (var i = 0; i < this.letters.length; i++){
             this.display += this.letters[i].toString()   
         }
-        return this.display
+        // return this.display
+        console.log(this.display + "\n========================\n")
     };
 
     // A function that takes a character as an argument and calls the guess function 
