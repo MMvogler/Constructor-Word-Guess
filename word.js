@@ -11,7 +11,7 @@ function Word (newLetters) {
     this.init()
     // An array of new Letter objects representing the letters of the underlying word
   
-    //var newLetters = [];
+    // var newLetters = [];
 
     // A function that returns a string representing the word. This displays 
     // the character or an underscore and concatenate those together.
@@ -38,6 +38,6 @@ function Word (newLetters) {
 // Exporting the Letter Constructor 
 module.exports = Word;
 
-// let mystery= new Word(['s','e','c','r','e','t'])
-// console.log(mystery.checkLetters("s").toString())
-// console.log(mystery.checkLetters("e").toString())
+let mystery= new Word(['s','e','c','r','e','t'])
+console.log(mystery.checkLetters("s").toString())
+console.log(mystery.checkLetters("e").toString())
